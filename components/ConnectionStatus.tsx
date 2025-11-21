@@ -11,7 +11,7 @@ const ConnectionStatus = ({ walletAddress }: ConnectionStatusProps) => {
     : "";
 
   return (
-    <div className="bg-[#424258] px-2 py-1 rounded-md">
+    <div className="bg-[#424258] px-4 py-2 flex items-center  justify-center font-bold text-gray rounded-md">
       {isConnected
         ? `Connected: ${formattedAddress}`
         : "Not connected"}
